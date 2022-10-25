@@ -1,7 +1,7 @@
 <script>
     import Template from "$components/Template.svelte";
     import Section from "$components/Section.svelte";
-    import Card from "$components/Card.svelte";
+    import Card from "$components/InfoCard.svelte";
     let color = "pink-500";
 </script>
 

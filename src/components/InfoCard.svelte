@@ -1,10 +1,12 @@
 <script>
+    export let href = "/";
     export let name = "";
     export let legend = "";
     export let type = "download";
+    export let color = "orange-400";
 </script>
 
-<div class="h-32 w-full hover:scale-[1.02] duration-300 border-2 rounded mt-2 flex flex-row items-center font-poppins text-white">
+<a rel=noreferrer href="{href}" target="_blank" class="h-32 w-full hover:scale-[1.02] duration-300 border-2 rounded border-{color} mt-2 flex flex-row items-center font-poppins text-white hover:text-{color}">
     <div class="w-16 h-16 bg-cover ml-6 px-8 icon-{type}"></div>
     <div class="ml-6 flex flex-col justify-center pr-1">
         <h1 class="text-sm font-medium text-white">
@@ -21,4 +23,4 @@
             <div class="text-sm">Visiter</div>
         {/if}
     </div>
-</div>
+</a>
