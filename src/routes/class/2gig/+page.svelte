@@ -1,8 +1,8 @@
 <script>
-	import Hero from "C:/Stuff/WebProjects/JLearn/src/components/Hero.svelte";
-    import Header from "C:/Stuff/WebProjects/JLearn/src/components/Header.svelte";
-    import Classes from "C:/Stuff/WebProjects/JLearn/src/components/Classes.svelte";
-    import InfoCard from "C:/Stuff/WebProjects/JLearn/src/components/InfoCard.svelte";
+	import Hero from "src/components/Hero.svelte";
+    import Header from "src/components/Header.svelte";
+    import Classes from "src/components/Classes.svelte";
+    import InfoCard from "src/components/InfoCard.svelte";
 </script>
 
 <svelte:head>

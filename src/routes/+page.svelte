@@ -1,5 +1,5 @@
 <script>
-    import InfoCard from "C:/Stuff/WebProjects/JLearn/src/components/InfoCard.svelte";
+    import InfoCard from "src/components/InfoCard.svelte";
 </script>
 
 <svelte:head>
