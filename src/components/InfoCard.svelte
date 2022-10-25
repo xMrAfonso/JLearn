@@ -3,20 +3,11 @@
     export let name = "";
     export let legend = "";
     export let type = "download";
+    export let color = "orange-400";
 </script>
 
-<a rel=noreferrer href="{href}" target="_blank" class="h-32 w-full hover:scale-[1.02] duration-300 border-2 rounded border-orange-600 mt-2 flex flex-row items-center font-poppins text-white hover:text-orange-400">
-    {#if type == "download"}
-        <div class="w-16 h-16 bg-cover ml-6 px-8 icon-download"></div>
-    {:else if type == "pdf"}
-        <div class="w-16 h-16 bg-cover ml-6 px-8 icon-pdf"></div>
-    {:else if type == "java"}
-        <div class="w-16 h-16 bg-cover ml-6 px-8 icon-java"></div>
-    {:else if type == "video"}
-        <div class="w-16 h-16 bg-cover ml-6 px-8 icon-video"></div>
-    {:else}
-        <div class="w-16 h-16 bg-cover ml-6 px-8 icon-external-link"></div>
-    {/if}
+<a rel=noreferrer href="{href}" target="_blank" class="h-32 w-full hover:scale-[1.02] duration-300 border-2 rounded border-{color} mt-2 flex flex-row items-center font-poppins text-white hover:text-{color}">
+    <div class="w-16 h-16 bg-cover ml-6 px-8 icon-{type}"></div>
     <div class="ml-6 flex flex-col justify-center pr-1">
         <h1 class="text-sm font-medium text-white">
             {name}

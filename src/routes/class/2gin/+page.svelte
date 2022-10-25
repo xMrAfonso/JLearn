@@ -2,12 +2,12 @@
     import Template from "$components/Template.svelte";
     import Section from "$components/Section.svelte";
     import InfoCard from "$components/InfoCard.svelte";
-    let color = "pink-600";
+    let color = "sky-500";
 </script>
 
-<Template activeClass="2gig" title="JLearn - 2GIG" >
+<Template activeClass="2gin" title="JLearn - 2GIN" >
     <Section isPrime={true} title="Programme">
-        <InfoCard color={color} href="http://java.cnpi.lu/download.php?id=422" name="Programme" legend="02.12.2021 - 204.29 KB" type="pdf"/>
+        <InfoCard color={color} href="http://java.cnpi.lu/download.php?id=423" name="Programme" legend="16.09.2021 - 218.17 KB" type="pdf"/>
         <InfoCard color={color} href="http://java.cnpi.lu/download.php?id=444" name="Conventions identificateurs et structogrammes " legend="17.09.2018 - 188.86 KB" type="pdf"/>
     </Section>
     
@@ -18,17 +18,22 @@
         <InfoCard color={color} href="http://unimozer.fisch.lu/" name="Unimozer" legend="12.07.2012 - 248 B" type="external"/>
         <InfoCard color={color} href="https://netbeans.apache.org/download/nb14" name="NetBeans 14" legend="10.09.2022 - 264 B" type="external"/>
         <InfoCard color={color} href="https://www.oracle.com/java/technologies/javase-jdk17-doc-downloads.html" name="Java Development Kit Documentation (JavaDoc)" legend="21.07.2022 - 295 B" type="external"/>
+        <InfoCard color={color} href="http://alexdp.free.fr/violetumleditor/page.php" name="Violet UML Editor" legend="08.11.2012 - 269 B" type="external"/>
         <InfoCard color={color} href="http://java.cnpi.lu/download.php?id=479" name="Java Source Printer v1.5.3" legend="18.12.2019 - 1.61 MB" type="download"/>
         <InfoCard color={color} href="https://web.microsoftstream.com/video/ec4e5d58-4f76-41ac-b245-731ae8283bd4" name="Utilisation de Java Source Printer sur Mac" legend="17.09.2022 - 297 B" type="video"/>
     </Section>
 
     <Section title="Cours et exercices">
         <InfoCard color={color} href="http://java.cnpi.lu/download.php?id=451" name="COURS La programmation orientée objets 2" legend="10.09.2020 - 1.66 MB" type="pdf"/>
+        <InfoCard color={color} href="http://java.cnpi.lu/download.php?id=465" name="COURS La programmation orientée objets 3" legend="22.07.2022 - 463.72 KB" type="pdf"/>
         <InfoCard color={color} href="http://java.cnpi.lu/download.php?id=457" name="Bonnes pratiques en Java" legend="16.07.2016 - 210.7 KB" type="pdf"/>
         <InfoCard color={color} href="http://java.cnpi.lu/download.php?id=454" name="EXERCICES PARTIE A : Récapitulation" legend="14.12.2019 - 394.72 KB" type="pdf"/>
         <InfoCard color={color} href="http://java.cnpi.lu/download.php?id=453" name="EXERCICES PARTIE B : Interfaces graphiques" legend="15.12.2019 - 896.82 KB" type="pdf"/>
         <InfoCard color={color} href="http://java.cnpi.lu/download.php?id=452" name="EXERCICES PARTIE C : Listes" legend="08.04.2021 - 1.72 MB" type="pdf"/>
         <InfoCard color={color} href="http://java.cnpi.lu/download.php?id=455" name="EXERCICES PARTIE D : Dessin et graphisme" legend="24.01.2021 - 1.01 KB" type="pdf"/>
+        <InfoCard color={color} href="http://java.cnpi.lu/download.php?id=455" name="EXERCICES PARTIE E : Le temps et la date" legend="10.12.2019 - 493.88 KB" type="pdf"/>
+        <InfoCard color={color} href="http://java.cnpi.lu/download.php?id=455" name="EXERCICES PARTIE F : Les événements de la souris" legend="03.12.2019 - 298.39 KB" type="pdf"/>
+        <InfoCard color={color} href="http://java.cnpi.lu/download.php?id=455" name="EXERCICES PARTIE G : La POO" legend="24.02.2022 - 422.64 KB" type="pdf"/>
     </Section>
 
     <Section isPrime={true} title="Exercices et ressources supplémentaires">
