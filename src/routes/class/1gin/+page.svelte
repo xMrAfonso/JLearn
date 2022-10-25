@@ -2,6 +2,7 @@
     import Template from "$components/Template.svelte";
     import Section from "$components/Section.svelte";
     import InfoCard from "$components/InfoCard.svelte";
+    import { fade } from 'svelte/transition';
     let color = "sky-500";
 </script>
 
