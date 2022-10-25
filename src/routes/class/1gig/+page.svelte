@@ -2,7 +2,7 @@
     import Template from "$components/Template.svelte";
     import Section from "$components/Section.svelte";
     import InfoCard from "$components/InfoCard.svelte";
-    let color = "pink-600";
+    let color = "pink-500";
 </script>
 
 <Template activeClass="1gig" title="JLearn - 1GIG" >
