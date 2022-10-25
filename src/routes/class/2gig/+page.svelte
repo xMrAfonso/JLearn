@@ -1,19 +1,18 @@
 <script>
-	import Hero from "src/components/Hero.svelte";
-    import Header from "src/components/Header.svelte";
-    import Classes from "src/components/Classes.svelte";
-    import InfoCard from "src/components/InfoCard.svelte";
+	import Hero from "$components/Hero.svelte";
+    import Header from "$components/Header.svelte";
+    import Classes from "$components/Classes.svelte";
+    import InfoCard from "$components/InfoCard.svelte";
 </script>
 
 <svelte:head>
-    <title>JLearn - 2GIG</title>
+    <title>JLearn - 2GIG </title>
 </svelte:head> 
 <body class="background scroll-smooth scroll w-screen sm:w-full">
     <div class="h-screen flex flex-col justify-between">
         <div class="">
             <Header />
             <Hero />
-
             <Classes />
             
             <div class="width-modifier sm:mx-auto mt-4 flex items-center justify-center mx-4">

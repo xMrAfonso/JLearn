@@ -1,5 +1,5 @@
 <script>
-    import InfoCard from "src/components/InfoCard.svelte";
+    import InfoCard from "$components/InfoCard.svelte";
 </script>
 
 <svelte:head>
@@ -9,7 +9,7 @@
     <div class="h-screen flex flex-col justify-between">
         <div class="">
             <header class="width-modifier h-20 mx-auto pt-6 text-white text-4xl text-center font-poppins font-bold">
-                JLearn
+                JLearn 
             </header>
 
             <div class="width-modifier sm:rounded-lg md:h-44 h-36 mt-1 background-header mx-auto pl-2 sm:pl-6 bg-center flex flex-row items-center justify-between gap-2">
@@ -22,7 +22,7 @@
                     </h2>
                 </div>
                 <div class="hidden sm:block icon-java w-20 h-20 bg-cover mr-14"></div>
-            </div>
+            </div> 
 
             <div>
                 <h1 class="width-modifier mx-4 sm:mx-auto my-4 pt-4 md:my-6 text-2xl md:text-3xl text-gray-200 font-bold">Classes
