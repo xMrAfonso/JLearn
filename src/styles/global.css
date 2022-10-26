@@ -16,23 +16,23 @@
 }
 
 .icon-java {
-    background-image: url("https://cdn.discordapp.com/attachments/912104137192247366/1033829439060054087/java_1.png");
+    background-image: url("https://cdn.discordapp.com/attachments/912104137192247366/1034919994242367538/java.webp");
 }
 
 .icon-pdf {
-    background-image: url("https://cdn.discordapp.com/attachments/912104137192247366/1033855708787114114/pdf_1.png");
+    background-image: url("https://cdn.discordapp.com/attachments/912104137192247366/1034919994666004582/pdf.webp");
 }
 
 .icon-external {
-    background-image: url("https://cdn.discordapp.com/attachments/912104137192247366/1033857609461153883/external-link_1.png");
+    background-image: url("https://cdn.discordapp.com/attachments/912104137192247366/1034919993852305469/external-link.webp");
 }
 
 .icon-download {
-    background-image: url("https://cdn.discordapp.com/attachments/912104137192247366/1033859512295231518/download_1.png");
+    background-image: url("https://cdn.discordapp.com/attachments/912104137192247366/1034920714450509936/download.webp");
 }
 
 .icon-video {
-    background-image: url("https://cdn.discordapp.com/attachments/912104137192247366/1033865818288701450/video_1.png");
+    background-image: url("https://cdn.discordapp.com/attachments/912104137192247366/1034919995098013696/video.webp");
 }
 
 .background {
@@ -41,7 +41,9 @@
 }
 
 .background-header {
-    background-image: url("https://cdn.discordapp.com/attachments/912104137192247366/1033825573409140797/gradient-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://cdn.discordapp.com/attachments/912104137192247366/1034919042298945646/gradient-bg.webp");
 }
 
 .scroll {
